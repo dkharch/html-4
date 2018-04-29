@@ -4,27 +4,40 @@
 <head>
     <meta charset="UTF-8">
     <title>Meetin App</title>
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
     <header>
         <nav>
-            <a href="index.html">Main</a>
-            <a href="">About</a>
-            <a href="">FAQ</a>
-    </nav>
-        <img src="img/logo.png" alt="Meetin logo" width="155" height="155">
+            <p>Chillinc</p>
+            <ul>
+                <li><a href="">About</a></li>
+                <li><a href="">FAQ</a></li>
+            </ul>
+            <p>Sign in</p>
+            <p id="signup">Sign up</p>
+        </nav>
+        <div>
+            <img src="img/chill.png" alt="Meetin logo" width="155" height="155">
+            <h2>Chillinc</h2>
+            <p>A new way to tap your place</p>
+            <form class="signupform">
+                <input type="email" name="client-email" placeholder="Your email address" required>
+                <button>Get Started It's Free</button>
+            </form>
+        </div>
     </header>
     <main>
-        <section>
-            <h1>Platforms</h1>
+        <section class="platforms">
+            <h2>Platforms</h2>
             <img src="img/ios.png" alt="ios image">
             <b>IOS</b>
             <img src="img/android.png" alt="android image">
             <b>Android</b>
         </section>
-        <section>
-            <h1>What can you do with Meetin?</h1>
+        <section class="content">
+            <h2>What can you do with Meetin?</h2>
             <article>
                 <img src="img/map.jpg" alt="map image">
                 <h3>Book</h3>
@@ -41,17 +54,17 @@
                 <p>Share your experience with the community.</p>
             </article>
         </section>
-        <section>
+        <section class="share">
             <h3>Share your ideas with us</h3>
             <form>
                 <label>Name:
-            <input type="text" name="client-name"/><br>
+            <input type="text" name="client-name"><br>
             </label>
                 <label>Email:
-            <input type="email" name="client-email"/><br>
+            <input type="email" name="client-email"><br>
             </label>
-                <textarea name="comment">Some cool stuff here...</textarea><br>
-                <input type="submit" name="send" />
+                <textarea name="comment" placeholder="Some cool stuff here..."></textarea><br>
+                <input type="submit" name="send">
             </form>
         </section>
     </main>
