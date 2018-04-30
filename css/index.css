@@ -5,6 +5,7 @@
 }
 body{
     margin: 0;
+    max-width: 1920px;
 }
 img{
     width: 151px;
