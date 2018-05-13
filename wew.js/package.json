@@ -1,0 +1,92 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "wew.js",
+        "scope": null,
+        "escapedName": "wew.js",
+        "name": "wew.js",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/home/ubuntu/workspace"
+    ]
+  ],
+  "_from": "wew.js@latest",
+  "_id": "wew.js@1.0.1",
+  "_inCache": true,
+  "_location": "/wew.js",
+  "_nodeVersion": "5.8.0",
+  "_npmOperationalInternal": {
+    "host": "packages-13-west.internal.npmjs.com",
+    "tmp": "tmp/wew.js-1.0.1.tgz_1458135179967_0.6897799810394645"
+  },
+  "_npmUser": {
+    "name": "ledak",
+    "email": "alex@ledak.ru"
+  },
+  "_npmVersion": "3.8.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "wew.js",
+    "scope": null,
+    "escapedName": "wew.js",
+    "name": "wew.js",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/wew.js/-/wew.js-1.0.1.tgz",
+  "_shasum": "de534c333a72e4f9f7068effe85a44a954ebcb13",
+  "_shrinkwrap": null,
+  "_spec": "wew.js",
+  "_where": "/home/ubuntu/workspace",
+  "author": {
+    "name": "Alex Ledak"
+  },
+  "browserDependencies": {},
+  "bugs": {
+    "url": "https://github.com/aljs/wew.js/issues"
+  },
+  "dependencies": {},
+  "description": "Reveal animations when elements are within the viewport (on load, scroll and resize). WOW.js alternative with MIT license. Based on Josh Johnson's Animate.js library.",
+  "devDependencies": {
+    "gulp": "~3.9.0",
+    "gulp-header": "^1.0.2",
+    "gulp-jshint": "^1.6.1",
+    "gulp-load-plugins": "^1.0.0",
+    "gulp-plumber": "~0.6.2",
+    "gulp-rename": "~1.1.0",
+    "gulp-uglify": "~0.3.0",
+    "jshint-stylish": "^0.2.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "de534c333a72e4f9f7068effe85a44a954ebcb13",
+    "tarball": "https://registry.npmjs.org/wew.js/-/wew.js-1.0.1.tgz"
+  },
+  "gitHead": "4dca22803408e61d2d25618f8cd19a92315bd471",
+  "homepage": "https://github.com/aljs/wew.js",
+  "license": "MIT",
+  "main": "./dist/wew.min.js",
+  "maintainers": [
+    {
+      "name": "ledak",
+      "email": "alex@ledak.ru"
+    }
+  ],
+  "name": "wew.js",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/aljs/wew.js.git"
+  },
+  "scripts": {},
+  "version": "1.0.1"
+}
