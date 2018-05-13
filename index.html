@@ -9,79 +9,89 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
 </head>
 
 <body>
     <header>
         <nav>
-            <p class="navlogo"><span class="logocolor">Chill</span>.inc</p>
+            <p class="navlogo animated infinite pulse"><span class="logocolor">Chill</span>.inc</p>
             <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#">FAQ</a></li>
+                <li><a href="#about" class="smooth">About</a></li>
+                <li><a href="#faq" class="smooth">FAQ</a></li>
+                 <li><a href="#platforms" class="smooth">Platforms</a></li>
             </ul>
             <p class="signinbutton">Sign in</p>
-            <button disabled class="signupbutton">Sign up</button>
+            <button class="signupbutton" disabled>Sign up</button>
         </nav>
         <div>
-            <p class="mainlogo">
+            <p class="mainlogo animated slideInLeft">
                 <span class="logocolor">Chill</span>.inc</p>
-            <p class="content-phrase">A new way to
-                <span class="logocolor">tap</span> your
-                <span class="logocolor">place</span>
+            <p class="content-phrase animated slideInLeft">A new way to
+                <span class="logocolor animated infinite fadeOut">tap</span> your
+                <span class="logocolor animated infinite fadeOut">place</span>
             </p>
-            <form class="signupform">
+            <form class="signupform animated slideInLeft">
                 <input class="email-input" type="email" name="client-email" placeholder="Your email address" required>
                 <button class="button">Get Started It's Free</button>
             </form>
-            <a class="acclink" href="#">Already have an account?</a>
+            <a class="acclink animated slideInLeft" href="#">Already have an account?</a>
         </div>
     </header>
     <main>
         <div class="throne">
-            <p>Some text about this app here.</p>
+            <p>A platform for booking and searching places in your city.</p>
         </div>
-        <section class="about">
+        <section id="about" class="about">
             <h3><u>What is Chill?</u></h3>
-            <p>Chill.inc is the biggest platform for booking and searching places in your city using its own application.</p>
-            <p id="subabout">Monetize your code; WordPress® themes and plugins, HTML/CSS templates, Libraries and Snippets of any kind. (Supported languages: JavaScript, PHP, Python, Ruby, Node.js, Rust, Go, etc...)</p>
+            <div>
+                <p>Chill.inc is the biggest platform for booking and searching places in your city using its own application.</p>
+                <p id="subabout">Check your favourite restaurants/cafes or taverns in realtime using our new apllication. All data will be sent directly to your device.</p>
+            </div>
         </section>
-        <section class="faq">
+        <section id="faq" class="faq">
             <h3>Why choose Chill.inc?</h3>
             <div class="block-container">
-                <div>
+                <article>
                     <img src="img/compass.svg" alt="CD image">
-                    <p>Some text here</p>
-                </div>
-                <div>
+                    <p>Easy to find the best place near your location.</p>
+                </article>
+                <article>
                     <img src="img/computing-cloud.svg" alt="Computing cloud">
-                    <p>Some text here</p>
-                </div>
-                <div>
+                    <p>Synchronize data across all your devices.</p>
+                </article>
+                <article>
                     <img src="img/cpu.svg" alt="CPU image">
-                    <p>Some text here</p>
-                </div>
-                <div>
+                    <p>Chill delivers data faster than any other apllication.</p>
+                </article>
+                <article>
                     <img src="img/idea.svg" alt="Idea image">
-                    <p>Some text here</p>
+                    <p>Chill is free. No ads and no subscription.</p>
 
-                </div>
-                <div>
+                </article>
+                <article>
                     <img src="img/ipad.svg" alt="Ipad image">
-                    <p>Some text here</p>
-                </div>
-                <div>
+                    <p>Native apllication for all supported devices.</p>
+                </article>
+                <article>
                     <img src="img/smartphone.svg" alt="Smartphone image">
-                    <p>Some text here</p>
-                </div>
+                    <p>Has no limits on the size of your data.</p>
+                </article>
             </div>
         </section>
         <hr>
-        <section class="platforms">
+        <section id="platforms" class="platforms">
             <h2><u>Platforms</u></h2>
             <p>You can find our app using these links to the store</p>
             <div class="platformbuttons">
-                <button class="button">IOS</button>
-                <button class="button">Android</button>
+                <div class="platformitem">
+                    <img src="img/gif/panda.gif" class="gif" alt="Panda gif">
+                    <img src="img/appstorebutton.png" class="pbutton" alt="Applestore button">
+                </div>
+                <div class="platformitem">
+                    <img src="img/gif/spaceman.gif" class="gif" alt="Spaceman gif">
+                    <img src="img/googleplaybutton.png" class="pbutton" alt="Googleplay button">
+                </div>
             </div>
         </section>
         <hr>
@@ -122,6 +132,11 @@
         <h3><span class="logocolor">Chill</span>.inc</h3>
         <p>Some text about our app</p>
     </footer>
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
