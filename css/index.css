@@ -180,7 +180,9 @@ footer p {
     margin-left: 5px;
     margin-right: 15px;
 }
-
+.signinbutton.disabled{
+    cursor: pointer;
+}
 .signinbutton {
     font-size: 20px;
     padding-top: 5px;
@@ -381,6 +383,9 @@ footer div {
     width: 455px;
     padding-left: 0;
 }
+.block-container article p{
+    font-size: 1.1rem;
+}
 
 .block-container article img {
     margin-left: auto;
@@ -523,4 +528,7 @@ footer div {
 }
 footer hr{
     border-color: #596f73;
+}
+.blocks article p{
+    font-size: 1.1rem;
 }
